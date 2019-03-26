@@ -27,7 +27,10 @@ top: 0;}
 
 .login div{display: inline-block;}
 
-.eng, cont{float: left;}
+.eng{width: 10%;}
+
+.eng, cont{float: left;
+display: inline-block;}
 
 .login a {display: inline-block;
 text-decoration: none;
@@ -41,6 +44,8 @@ color: black;}
 content: "";
 display: table;}
 
+#space{margin-left: 10%;}
+
 /* contenuto barra navigazione */
 nav{width: 100%;
 height: 80px;
@@ -48,16 +53,20 @@ background-color: white;
 float: left;
 margin-top: 80px;}
 
-.logo{background-image: url(img/logo.png);
-width: 160px;  height: 40px;
+/* .logo{background-image: url(img/logo.png);
+width: 20%;  height: 100%;
 background-size: cover;
 background-position: center;
 display: inline-block;
 float: left;}
 
-ul{float: right;}
+ul{float: right;} */
+.cont_gen .logo1{width: 20%;
+height: 100%;
+float: left;}
 
-ul li{display: inline-block;}
+ul li{display: inline-block;
+float: right;}
 
 ul li a{text-decoration: none;
 color: black;}
@@ -69,11 +78,12 @@ height: 80px;
 background-color: black;
 float: left;}
 
-.bar_black div:first-child{width: 70%;
-height: 60px;
-color: white;}
+.cont_gen div:first-child{width: 70%;
+height: 100%;
+color: white;
+display: inline-block;}
 
-.bar_black div:last-child{float: right;}
+.cont_gen div:last-child{float: right;}
 
 /* contenuto blocco immagine 1 blue */
 .cont_img1{width: 100%;
