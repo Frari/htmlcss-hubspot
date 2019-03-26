@@ -1,0 +1,237 @@
+*{box-sizing: border-box;
+margin: 0;}
+
+.container::after{clear: both;
+content: "";
+display: table;}
+
+.container{width: 100%;
+height: 100%;}
+
+.cont_gen{width: 80%;
+height: 100%;
+margin: 0 auto;
+border: 1px solid red;
+position: relative;
+}
+
+/* contenuto barra login */
+.login{width: 100%;
+height: 80px;
+background-color:#e6eff2;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+position:fixed;
+left: 0;
+top: 0;}
+
+.login div{display: inline-block;}
+
+.eng, cont{float: left;}
+
+.login a {display: inline-block;
+text-decoration: none;
+color: black;}
+
+.login i{display: inline-block;}
+
+.search, .log, .free{float: right;}
+
+.login::after{clear: both;
+content: "";
+display: table;}
+
+/* contenuto barra navigazione */
+nav{width: 100%;
+height: 80px;
+background-color: white;
+float: left;
+margin-top: 80px;}
+
+.logo{background-image: url(img/logo.png);
+width: 160px;  height: 40px;
+background-size: cover;
+background-position: center;
+display: inline-block;
+float: left;}
+
+ul{float: right;}
+
+ul li{display: inline-block;}
+
+ul li a{text-decoration: none;
+color: black;}
+
+/* contenuto barra nera sotto la nav */
+
+.bar_black{width: 100%;
+height: 80px;
+background-color: black;
+float: left;}
+
+.bar_black div:first-child{width: 70%;
+height: 60px;
+color: white;}
+
+.bar_black div:last-child{float: right;}
+
+/* contenuto blocco immagine 1 blue */
+.cont_img1{width: 100%;
+height: 700px;
+background-color: #04a5e0;
+border-bottom: 2px solid black;
+float: left;}
+
+.cont_img1 div{float: left;
+width: 40%;
+height: 300px;}
+
+/* contenuto immagine 2 con cubo e blocchi */
+.cont_img2{width: 100%;
+height: 600px;
+background-color: #e6eff2;
+float: left;}
+
+.kubik{width: 70%;
+height: 400px;
+text-align: center;
+float: left;
+}
+
+/* contenuto blocco orizontale sotto cubo */
+.cont_img3{width: 100%;
+height: 300px;
+background-color:#e6eff2;
+border: 1px solid black;
+float: left;}
+
+.cont_img3 .blocco_1{width: 80%;
+height: 280px;
+background-color: white;}
+
+/* comtenuto container con tre blocchi verticali */
+.cont_3blocchi{width: 100%;
+height: 600px;
+background-color:#e6eff2;
+border: 1px solid black;
+float: left;}
+
+.col_1, .col_2, .col_3{width: 25%;
+height: 600px;
+background-color: white;
+border: 1px solid black;}
+
+.col_1{float: left;}
+
+.col_2{float: right;}
+
+.col_3{float: right;}
+
+/* container testo in spazio verde */
+.container_green1{width: 100%;
+height: 300px;
+background-color: #16cebc;
+border: 1px solid black;
+float: left;
+}
+
+.container_green1 .text{text-align: center;
+color: white;
+width: 80%;}
+
+/* container tabella in spazio verde */
+.container_green2{width: 100%;
+height: 600px;
+background-color: #16cebc;
+border: 1px solid black;
+float: left;}
+
+.container_green2 .tab{width: 1004px;
+height:500px;
+border: 1px solid black;}
+
+.tab .block{ width: 250px;
+height: 250px;
+border: 1px solid black;
+float: left;}
+
+/* container spazio bianco con testo e icone */
+.white_icons{width: 100%;
+height: 500px;
+background-color: white;
+border: 1px solid black;
+float: left;}
+
+.white_icons .w_text{width: 300px;
+height: 300px;
+border: 1px solid black;
+float: left;}
+
+.white_icons .w_icons{width: 604px;
+height: 300px;
+border: 1px solid black;
+float: right;}
+
+.w_icons .icon{width: 150px;
+height:150px;
+border: 1px solid black;
+float: left;}
+
+/* container spazio bianco con testo e foto ragazza */
+.white_foto{width: 100%;
+height: 600px;
+border: 1px solid black;
+background-color: white;
+float: left;}
+
+.white_foto .w_button{width: 400px;
+height: 400px;
+border: 1px solid black;
+float: left;}
+
+.white_foto .w_girl{width: 500px;
+height: 500px;
+border: 1px solid black;
+float: right;}
+
+/* contenuto liste footer */
+footer{width: 100%;
+height: 100%;
+background-color: black;
+float: left;}
+
+.foot_cont{width: 100%;
+height: 500px;
+background-color: black;
+float: left;
+border: 1px solid white;
+float: left;}
+
+.cont_gen .list{width: 25%;
+height: 100%;
+border: 1px solid white;
+float: left;}
+
+/* lista lingue footer */
+footer .lang{width: 100%;
+height: 150px;
+border: 1px solide white;
+float: left;}
+
+.cont_gen ul li{color: white;}
+
+/* contenuto copyright */
+footer .legal{width: 100%;
+height: 150px;
+border: 1px solide white;
+float: left;}
+
+.cont_gen .log_left{width: 20%;
+height: 100%;
+border: 1px solid white;
+float: left;}
+
+.cont_gen .leg_right{width: 30%;
+height: 100%;
+border: 1px solid white;
+float: right;}
