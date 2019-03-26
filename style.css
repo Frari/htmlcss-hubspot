@@ -23,7 +23,8 @@ border-top: 1px solid black;
 border-bottom: 1px solid black;
 position:fixed;
 left: 0;
-top: 0;}
+top: 0;
+z-index: 1;}
 
 .login div{display: inline-block;}
 
@@ -53,14 +54,6 @@ background-color: white;
 float: left;
 margin-top: 80px;}
 
-/* .logo{background-image: url(img/logo.png);
-width: 20%;  height: 100%;
-background-size: cover;
-background-position: center;
-display: inline-block;
-float: left;}
-
-ul{float: right;} */
 .cont_gen .logo1{width: 20%;
 height: 100%;
 float: left;}
@@ -78,12 +71,12 @@ height: 80px;
 background-color: black;
 float: left;}
 
-.cont_gen div:first-child{width: 70%;
+.cont_gen .attention{width: 70%;
 height: 100%;
 color: white;
 display: inline-block;}
 
-.cont_gen div:last-child{float: right;}
+.cont_gen .listen{float: right;}
 
 /* contenuto blocco immagine 1 blue */
 .cont_img1{width: 100%;
@@ -92,7 +85,7 @@ background-color: #04a5e0;
 border-bottom: 2px solid black;
 float: left;}
 
-.cont_img1 div{float: left;
+.cont_gen .there{float: left;
 width: 40%;
 height: 300px;}
 
@@ -102,7 +95,7 @@ height: 600px;
 background-color: #e6eff2;
 float: left;}
 
-.kubik{width: 70%;
+.cont_gen .kubik{width: 70%;
 height: 400px;
 text-align: center;
 float: left;
@@ -115,18 +108,18 @@ background-color:#e6eff2;
 border: 1px solid black;
 float: left;}
 
-.cont_img3 .blocco_1{width: 80%;
+.cont_img3 .blocco_1{width: 100%;
 height: 280px;
 background-color: white;}
 
 /* comtenuto container con tre blocchi verticali */
 .cont_3blocchi{width: 100%;
-height: 600px;
+height: 700px;
 background-color:#e6eff2;
 border: 1px solid black;
 float: left;}
 
-.col_1, .col_2, .col_3{width: 25%;
+.col_1, .col_2, .col_3{width: 30%;
 height: 600px;
 background-color: white;
 border: 1px solid black;}
@@ -135,7 +128,8 @@ border: 1px solid black;}
 
 .col_2{float: right;}
 
-.col_3{float: right;}
+.col_3{float: right;
+margin-right: 5%;}
 
 /* container testo in spazio verde */
 .container_green1{width: 100%;
@@ -145,7 +139,7 @@ border: 1px solid black;
 float: left;
 }
 
-.container_green1 .text{text-align: center;
+.cont_gen .text{text-align: center;
 color: white;
 width: 80%;}
 
@@ -156,12 +150,12 @@ background-color: #16cebc;
 border: 1px solid black;
 float: left;}
 
-.container_green2 .tab{width: 1004px;
+.cont_gen .tab{width: 100%;
 height:500px;
 border: 1px solid black;}
 
-.tab .block{ width: 250px;
-height: 250px;
+.tab .block{ width: 25%;
+height: 50%;
 border: 1px solid black;
 float: left;}
 
@@ -172,18 +166,18 @@ background-color: white;
 border: 1px solid black;
 float: left;}
 
-.white_icons .w_text{width: 300px;
-height: 300px;
+.cont_gen .w_text{width: 30%;
+height: 40%;
 border: 1px solid black;
 float: left;}
 
-.white_icons .w_icons{width: 604px;
-height: 300px;
+.cont_gen .w_icons{width: 50%;
+height: 60%;
 border: 1px solid black;
 float: right;}
 
-.w_icons .icon{width: 150px;
-height:150px;
+.w_icons .icon{width: 25%;
+height:50%;
 border: 1px solid black;
 float: left;}
 
@@ -194,13 +188,13 @@ border: 1px solid black;
 background-color: white;
 float: left;}
 
-.white_foto .w_button{width: 400px;
-height: 400px;
+.cont_gen .w_button{width: 40%;
+height: 70%;
 border: 1px solid black;
 float: left;}
 
-.white_foto .w_girl{width: 500px;
-height: 500px;
+.cont_gen .w_girl{width: 40%;
+height: 70%;
 border: 1px solid black;
 float: right;}
 
