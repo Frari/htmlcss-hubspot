@@ -14,7 +14,6 @@ height: 100%;}
 .cont_gen{width: 80%;
 height: 100%;
 margin: 0 auto;
-border: 1px solid red;
 position: relative;
 }
 
@@ -155,7 +154,6 @@ margin-bottom: 20px;}
 .cont_img3{width: 100%;
 height: 300px;
 background-color:#e6eff2;
-border: 1px solid black;
 float: left;}
 
 #back_white{background-color: white;
@@ -167,14 +165,12 @@ box-shadow: 10px 10px 10px 10px rgba(187, 193, 193, 0.5); }
 
 .cont_gen .img_libro{width: 30%;
 height: 100%;
-border: 1px solid black;
 float: left;
 background-color: white;
 position: relative;}
 
 .cont_gen .text_libro{width: 60%;
 height: 100%;
-border: 1px solid black;
 float: right;
 background-color: white;}
 
@@ -209,13 +205,11 @@ font-size: 20px;}
 .cont_3blocchi{width: 100%;
 height: 700px;
 background-color:#e6eff2;
-border: 1px solid black;
 float: left;}
 
 .col_1, .col_2, .col_3{width: 30%;
 height: 600px;
 background-color: white;
-border: 1px solid black;
 margin-top: 5%;
 position: relative;
 box-shadow: 5px 5px 5px 5px rgba(187, 193, 193, 0.5)}
@@ -277,7 +271,6 @@ border: none; }
 .container_green1{width: 100%;
 height: 300px;
 background-image: linear-gradient(to right,#03c4b1, #00efd8 );
-border: 1px solid black;
 float: left;
 }
 
@@ -298,12 +291,10 @@ margin: 100px 0 20px 0;}
 .container_green2{width: 100%;
 height: 600px;
 background-image: linear-gradient(to right,#03c4b1, #00efd8 );
-border: 1px solid black;
 float: left;}
 
 .cont_gen .tab{width: 100%;
-height:500px;
-border: 1px solid black;}
+height:500px;}
 
 .tab .block{ width: 25%;
 height: 50%;
@@ -343,25 +334,21 @@ border-right: 2px solid white;}
 .white_icons{width: 100%;
 height: 500px;
 background-color: white;
-border: 1px solid black;
 float: left;
 position: relative;}
 
 .cont_gen .w_text{width: 30%;
 height: 40%;
-border: 1px solid black;
 float: left;
 margin-top: 100px;}
 
 .cont_gen .w_icons{width: 50%;
 height: 60%;
-border: 1px solid black;
 float: right;
 margin-top: 50px}
 
 .w_icons .icon{width: 25%;
 height:50%;
-border: 1px solid black;
 float: left;}
 
 .w_text h2{text-align: center;
@@ -376,20 +363,17 @@ margin-top: 20px;}
 /* container spazio bianco con testo e foto ragazza */
 .white_foto{width: 100%;
 height: 600px;
-border: 1px solid black;
 background-color: white;
 float: left;}
 
 .cont_gen .w_button{width: 40%;
 height: 70%;
-border: 1px solid black;
 float: left;
 position: relative;
 margin-top:100px; }
 
 .cont_gen .w_girl{width: 40%;
 height: 70%;
-border: 1px solid black;
 float: right;
 position: relative;
 margin-top: 100px;}
@@ -424,12 +408,10 @@ float: left;}
 height: 500px;
 background-color: black;
 float: left;
-border: 1px solid white;
 float: left;}
 
 .cont_gen .list{width: 25%;
 height: 100%;
-border: 1px solid white;
 float: left;}
 
 .list h4{color: white;
@@ -471,17 +453,14 @@ padding: 0 20px;
 /* contenuto copyright */
 footer .legal{width: 100%;
 height: 150px;
-border: 1px solide white;
 float: left;}
 
 .cont_gen .log_left{width: 20%;
 height: 100%;
-border: 1px solid white;
 float: left;}
 
 .cont_gen .leg_right{width: 30%;
 height: 100%;
-border: 1px solid white;
 float: right;}
 
 .log_left img{width: 150px;
