@@ -2,6 +2,8 @@
 margin: 0;
 font-family: Arial;}
 
+* div{border-radius: 2px;}
+
 .container::after{clear: both;
 content: "";
 display: table;}
@@ -157,6 +159,7 @@ border: 1px solid black;
 float: left;}
 
 #back_white{background-color: white;}
+
 .cont_gen .img_libro{width: 30%;
 height: 100%;
 border: 1px solid black;
@@ -196,6 +199,7 @@ font-size: 20px;}
 .text_libro p{padding-right: 100px;}
 
 .text_libro i{color: orange;}
+
 /* comtenuto container con tre blocchi verticali */
 .cont_3blocchi{width: 100%;
 height: 700px;
@@ -206,7 +210,9 @@ float: left;}
 .col_1, .col_2, .col_3{width: 30%;
 height: 600px;
 background-color: white;
-border: 1px solid black;}
+border: 1px solid black;
+margin-top: 5%;
+position: relative;}
 
 .col_1{float: left;}
 
@@ -214,6 +220,50 @@ border: 1px solid black;}
 
 .col_3{float: right;
 margin-right: 5%;}
+
+.col_1 img, .col_2 img, .col_3 img{width: 200px;
+position: absolute;
+left: 50%;
+transform: translate(-50%);}
+
+.col_1 #small_tit,
+.col_2 #small_tit,
+.col_3 #small_tit{margin-top: 250px;}
+
+.col_1 h3, .col_1 h4,
+.col_2 h3, .col_2 h4,
+.col_3 h3, .col_3 h4{text-align: center;}
+
+.col_1 p, .col_1 div,
+.col_2 p, .col_2 div,
+.col_3 p, .col_3 div{margin-left:20px;}
+
+.col_1 h4,
+.col_2 h4,
+.col_3 h4{margin: 40px 0 20px 0;}
+
+.col_1 i,
+.col_2 i,
+.col_3 i{margin-right: 10px;
+color: orange;}
+
+.col_1 div,
+.col_2 div,
+.col_3 div{margin-top: 5px;}
+
+.col_1 button,
+.col_2 button,
+.col_3 button {position: absolute;
+left: 50%;
+top: 95%;
+transform: translate(-50%, -95%);
+width: 150px;
+height: 40px;
+color: white;
+background-color: orange;
+font-weight: bold;
+border: none; }
+
 
 /* container testo in spazio verde */
 .container_green1{width: 100%;
